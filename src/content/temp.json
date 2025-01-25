@@ -1,0 +1,26 @@
+[
+  {
+    "projectName": "CareerCatalyst",
+    "projectWebsite": "https://careercatalyst.asu.edu/",
+    "imagePath": "careercatalyst.webp",
+    "shortDescription": "1Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "tools": [
+      "aws",
+      "gcp",
+      "nodejs",
+      "expressjs",
+      "vuejs",
+      "nuxt",
+      "javascript",
+      "salesforce",
+      "paypal",
+      "bootstrap",
+      "lambda",
+      "dynamodb",
+      "s3",
+      "canvaslms",
+      "typesense",
+      "algolia"
+    ]
+  }
+]

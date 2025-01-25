@@ -1,0 +1,102 @@
+{
+  "vuejs": {
+    "name": "VueJS",
+    "imageName": "vue.svg"
+  },
+  "vite": {
+    "name": "Vite",
+    "imageName": "vite.svg"
+  },
+  "aws": {
+    "name": "AWS",
+    "imageName": "aws.png"
+  },
+  "gcp": {
+    "name": "Google Cloud Platform",
+    "imageName": "gcp.png"
+  },
+  "nodejs": {
+    "name": "NodeJS",
+    "imageName": "nodejs.png"
+  },
+  "expressjs": {
+    "name": "ExpressJS",
+    "imageName": "expressjs.png"
+  },
+  "nuxt": {
+    "name": "Nuxt",
+    "imageName": "nuxt.png"
+  },
+  "javascript": {
+    "name": "Javascript",
+    "imageName": "javascript.png"
+  },
+  "salesforce": {
+    "name": "Salesforce",
+    "imageName": "salesforce.png"
+  },
+  "paypal": {
+    "name": "Paypal",
+    "imageName": "paypal.png"
+  },
+  "bootstrap": {
+    "name": "Bootstrap",
+    "imageName": "bootstrap.png"
+  },
+  "lambda": {
+    "name": "AWS Lambda",
+    "imageName": "lambda.png"
+  },
+  "dynamodb": {
+    "name": "AWS Dynamodb",
+    "imageName": "dynamodb.png"
+  },
+  "s3": {
+    "name": "AWS S3",
+    "imageName": "s3.png"
+  },
+  "canvaslms": {
+    "name": "Canvas LMS",
+    "imageName": "canvaslms.png"
+  },
+  "typesense": {
+    "name": "Typesense",
+    "imageName": "typesense.png"
+  },
+  "algolia": {
+    "name": "Algolia",
+    "imageName": "algolia.png"
+  },
+  "terraform": {
+    "name": "Terraform",
+    "imageName": "terraform.png"
+  },
+  "python": {
+    "name": "Python",
+    "imageName": "python.png"
+  },
+  "flask": {
+    "name": "Flask",
+    "imageName": "flask.png"
+  },
+  "typescript": {
+    "name": "Typescript",
+    "imageName": "typescript.png"
+  },
+  "tailwindcss": {
+    "name": "Tailwind CSS",
+    "imageName": "tailwindcss.png"
+  },
+  "neo4j": {
+    "name": "Neo4j",
+    "imageName": "neo4j.png"
+  },
+  "graphql": {
+    "name": "GraphQL",
+    "imageName": "graphql.png"
+  },
+  "postgres": {
+    "name": "PostgreSQL",
+    "imageName": "postgres.png"
+  }
+}

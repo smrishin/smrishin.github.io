@@ -1,0 +1,70 @@
+{
+  "aws": {
+    "name": "AWS",
+    "imageName": "aws.png"
+  },
+  "javascript": {
+    "name": "Javascript",
+    "imageName": "javascript.png"
+  },
+  "python": {
+    "name": "Python",
+    "imageName": "python.png"
+  },
+  "typescript": {
+    "name": "Typescript",
+    "imageName": "typescript.png"
+  },
+  "gcp": {
+    "name": "Google Cloud Platform",
+    "imageName": "gcp.png"
+  },
+  "vuejs": {
+    "name": "VueJS",
+    "imageName": "vue.svg"
+  },
+  "react": {
+    "name": "React",
+    "imageName": "react.png"
+  },
+  "terraform": {
+    "name": "Terraform",
+    "imageName": "terraform.png"
+  },
+  "nodejs": {
+    "name": "NodeJS",
+    "imageName": "nodejs.png"
+  },
+  "flask": {
+    "name": "Flask",
+    "imageName": "flask.png"
+  },
+  "mongodb": {
+    "name": "MongoDB",
+    "imageName": "mongodb.svg"
+  },
+  "dynamodb": {
+    "name": "AWS Dynamodb",
+    "imageName": "dynamodb.png"
+  },
+  "postgres": {
+    "name": "PostgreSQL",
+    "imageName": "postgres.png"
+  },
+  "neo4j": {
+    "name": "Neo4j",
+    "imageName": "neo4j.png"
+  },
+  "graphql": {
+    "name": "GraphQL",
+    "imageName": "graphql.png"
+  },
+  "bootstrap": {
+    "name": "Bootstrap",
+    "imageName": "bootstrap.png"
+  },
+  "tailwindcss": {
+    "name": "Tailwind CSS",
+    "imageName": "tailwindcss.png"
+  }
+}

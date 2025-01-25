@@ -1,0 +1,92 @@
+[
+  {
+    "projectName": "CareerCatalyst",
+    "projectWebsite": "https://careercatalyst.asu.edu/",
+    "imagePath": "careercatalyst.webp",
+    "shortDescription": "1Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "tools": [
+      "aws",
+      "gcp",
+      "javascript",
+      "nodejs",
+      "expressjs",
+      "vuejs",
+      "nuxt",
+      "salesforce",
+      "paypal",
+      "bootstrap",
+      "lambda",
+      "dynamodb",
+      "s3",
+      "canvaslms",
+      "typesense",
+      "algolia"
+    ]
+  },
+  {
+    "projectName": "100 Million Learners",
+    "projectWebsite": "https://100millionlearners.org/welcome/",
+    "imagePath": "100millionlearners.png",
+    "shortDescription": "2Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "tools": [
+      "aws",
+      "gcp",
+      "javascript",
+      "nodejs",
+      "expressjs",
+      "vuejs",
+      "nuxt",
+      "salesforce",
+      "paypal",
+      "bootstrap",
+      "lambda",
+      "dynamodb",
+      "s3",
+      "canvaslms"
+    ]
+  },
+  {
+    "projectName": "Triangulator",
+    "projectWebsite": null,
+    "imagePath": "triangulator.webp",
+    "shortDescription": "3Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "tools": [
+      "aws",
+      "terraform",
+      "python",
+      "typescript",
+      "flask",
+      "vuejs",
+      "nuxt",
+      "tailwindcss",
+      "lambda",
+      "dynamodb",
+      "s3",
+      "neo4j",
+      "graphql",
+      "postgres"
+    ]
+  },
+  {
+    "projectName": "StudyHall",
+    "projectWebsite": "https://gostudyhall.com/",
+    "imagePath": "studyhall.png",
+    "shortDescription": "4Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "tools": [
+      "aws",
+      "terraform",
+      "python",
+      "typescript",
+      "flask",
+      "vuejs",
+      "nuxt",
+      "tailwindcss",
+      "lambda",
+      "dynamodb",
+      "s3",
+      "neo4j",
+      "graphql",
+      "postgres"
+    ]
+  }
+]
