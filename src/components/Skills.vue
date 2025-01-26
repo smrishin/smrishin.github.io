@@ -1,4 +1,5 @@
 <script setup>
+import { CONSTANTS } from "../data/constants";
 import skillsLibrary from "@content/skills-library.json";
 </script>
 
@@ -12,7 +13,7 @@ import skillsLibrary from "@content/skills-library.json";
         >
           <img
             class="rounded-t-md w-6 h-6 object-contain"
-            :src="`/tools/${tool.imageName}`"
+            :src="`${CONSTANTS.GH_PAGES_REPO}/tools/${tool.imageName}`"
           />
           <p class="text-sm text-gray-100 pl-1">
             {{ tool.name }}

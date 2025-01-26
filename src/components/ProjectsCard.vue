@@ -1,9 +1,7 @@
 <script setup>
 import ToolChip from "./ToolChip.vue";
 import toolLibrary from "@content/tool-library.json";
-
-const ENV_VAR = import.meta.env.VITE_ENV_VAR;
-const GH_PAGES_REPO = `/${import.meta.env.GH_PAGES_REPO}/`;
+import { CONSTANTS } from "../data/constants";
 
 defineProps({
   projectName: {
@@ -35,9 +33,7 @@ defineProps({
   >
     <img
       class="rounded-t-md h-44 object-cover"
-      :src="`${
-        ENV_VAR == 'localhost' ? '' : GH_PAGES_REPO
-      }/work-projects/${imagePath}`"
+      :src="`${CONSTANTS.GH_PAGES_REPO}/work-projects/${imagePath}`"
     />
     <div class="p-4">
       <h3 class="text-xl font-bold">
