@@ -3,7 +3,7 @@
     "projectName": "CareerCatalyst",
     "projectWebsite": "https://careercatalyst.asu.edu/",
     "imagePath": "careercatalyst.webp",
-    "shortDescription": "1Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "shortDescription": "CareerCatalyst is a web platform ASU professors and staff developed to provide streamlined career development resources and tools for students and professionals. It offers personalized career guidance, skills-building courses, and job search support to empower users in advancing their career goals.",
     "tools": [
       "aws",
       "gcp",
@@ -27,7 +27,7 @@
     "projectName": "100 Million Learners",
     "projectWebsite": "https://100millionlearners.org/welcome/",
     "imagePath": "100millionlearners.png",
-    "shortDescription": "2Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "shortDescription": "The 100 Million Learners program by Thunderbird School of Global Management at ASU offers free, world-class online education in 40 languages. Its mission is to empower individuals worldwide with critical business, leadership, and entrepreneurial skills, fostering global economic growth and opportunity.",
     "tools": [
       "aws",
       "gcp",
@@ -49,7 +49,7 @@
     "projectName": "Triangulator",
     "projectWebsite": null,
     "imagePath": "triangulator.webp",
-    "shortDescription": "3Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "shortDescription": "Triangulator is a product developed by ASU that automates the process of determining course transfers between universities. My contributions include being one of the leading developers on the project.",
     "tools": [
       "aws",
       "terraform",
@@ -71,7 +71,7 @@
     "projectName": "StudyHall",
     "projectWebsite": "https://gostudyhall.com/",
     "imagePath": "studyhall.png",
-    "shortDescription": "4Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements.",
+    "shortDescription": "Study Hall is an education platform created by the Study Hall YouTube channel and ASU. My contributions include refactoring the payment system to increase reliability.",
     "tools": [
       "aws",
       "terraform",
