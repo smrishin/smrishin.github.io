@@ -3,13 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-"homepage": "https://smrishin.github.io/hrishikeshreddy.dev",
+  "homepage": "https://smrishin.github.io/",
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "bunx --bun vite build",
     "preview": "bunx --bun vite preview",
     "deploy": "gh-pages -d dist",
-
     "dev-vite": "vite",
     "build-vite": "vite build",
     "preview-vite": "vite preview"

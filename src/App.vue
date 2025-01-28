@@ -4,6 +4,7 @@ import Experience from "@components/Experience.vue";
 import Projects from "@components/Projects.vue";
 import Skills from "@components/Skills.vue";
 </script>
+
 <template>
   <!-- Outer container for the whole website -->
   <div class="container mx-auto px-10 xl:px-48">

@@ -3,6 +3,6 @@
 This is the codebase and content base for Hrishikesh's Portfolio
 visit https://smrishin.github.io/hrishikeshreddy.dev/
 
-Contant me:
+Contact me:
 smrishin@gmail.com
 https://www.linkedin.com/in/hrishikeshtolmamdi/
