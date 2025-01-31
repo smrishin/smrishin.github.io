@@ -19,7 +19,7 @@
     "projectWebsite": "https://club3-intro.vercel.app/",
     "imagePath": "club3.png",
     "codebase": "https://github.com/ShravyaReddyAkmy/club3-llm",
-    "shortDescription": "An LLM model to create a social community based on your interests and location. Modeled LLMs with a team mate.",
+    "shortDescription": "An LLM model build for Club 3 App to create a social community based on your interests and location. Modeled LLMs with a team mate.",
     "tools": ["python"]
   },
   {
