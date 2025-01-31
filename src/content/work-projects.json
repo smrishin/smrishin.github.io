@@ -3,7 +3,7 @@
     "projectName": "CareerCatalyst",
     "projectWebsite": "https://careercatalyst.asu.edu/",
     "imagePath": "careercatalyst.webp",
-    "shortDescription": "CareerCatalyst is a web platform ASU professors and staff developed to provide streamlined career development resources and tools for students and professionals. It offers personalized career guidance, skills-building courses, and job search support to empower users in advancing their career goals.",
+    "shortDescription": "CareerCatalyst is a web platform developed by ASU professors and staff to provide streamlined career development resources for students and professionals. My contributions included designing, developing, and deploying the application’s frontend and backend using Vue.js, Node.js, and AWS, as well as integrating Salesforce and PayPal APIs for database management and payment processing.",
     "tools": [
       "aws",
       "gcp",
@@ -27,7 +27,7 @@
     "projectName": "100 Million Learners",
     "projectWebsite": "https://100millionlearners.org/welcome/",
     "imagePath": "100millionlearners.png",
-    "shortDescription": "The 100 Million Learners program by Thunderbird School of Global Management at ASU offers free, world-class online education in 40 languages. Its mission is to empower individuals worldwide with critical business, leadership, and entrepreneurial skills, fostering global economic growth and opportunity.",
+    "shortDescription": "The 100 Million Learners program by Thunderbird School of Global Management at ASU offers free, world-class online education in 40 languages. Led a team of three developers. Designed the architecture and developed the platform using AWS, Terraform, Vue.js, and Node.js. Integrated Salesforce, Canvas, and HubSpot APIs and built the lightweight Bluebird LMS to minimize costs.",
     "tools": [
       "aws",
       "gcp",
@@ -49,7 +49,7 @@
     "projectName": "Triangulator",
     "projectWebsite": null,
     "imagePath": "triangulator.webp",
-    "shortDescription": "Triangulator is a product developed by ASU that automates the process of determining course transfers between universities. My contributions include being one of the leading developers on the project.",
+    "shortDescription": "Triangulator, a product from ASU and funded by the Gates Foundation, automates the process of determining course transfers between universities. My contributions include being DevOps engineer to build the CI/CD pipelines using Terraform and AWS and one of the developers on the project.",
     "tools": [
       "aws",
       "terraform",
@@ -71,22 +71,29 @@
     "projectName": "StudyHall",
     "projectWebsite": "https://gostudyhall.com/",
     "imagePath": "studyhall.png",
-    "shortDescription": "Study Hall is an education platform created by the Study Hall YouTube channel and ASU. My contributions include refactoring the payment system to increase reliability.",
+    "shortDescription": "Study Hall is an education platform created by the Study Hall YouTube channel and ASU. Contributed to developing its frontend and backend using Vue.js, Node.js, and AWS, while integrating Salesforce for database management and Google Classroom for seamless learning experiences.",
     "tools": [
       "aws",
-      "terraform",
-      "python",
-      "typescript",
-      "flask",
+      "gcp",
+      "javascript",
+      "nodejs",
+      "expressjs",
       "vuejs",
       "nuxt",
-      "tailwindcss",
+      "salesforce",
+      "paypal",
+      "bootstrap",
       "lambda",
       "dynamodb",
       "s3",
-      "neo4j",
-      "graphql",
-      "postgres"
+      "google-classroom"
     ]
+  },
+  {
+    "projectName": "S-Clinical Website",
+    "projectWebsite": "http://s-clinical.com/",
+    "imagePath": "sclinical.png",
+    "shortDescription": "S-Clinical is a platform providing clinical trial management solutions, streamlining data collection, approvals, and real-time updates for healthcare research. My contributions included designing, developing, and deploying the application’s frontend and backend using Wordpress and Javascript, integration various APIs and the content management systems.",
+    "tools": ["javascript", "wordpress", "googlemaps"]
   }
 ]

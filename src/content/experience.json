@@ -1,0 +1,23 @@
+[
+  {
+    "companyName": "OneOrigin Inc.",
+    "companyWebsite": "https://www.oneorigin.us/",
+    "role": "Associate Technical Lead",
+    "duration": "September 2021 - July 2024",
+    "shortDescription": "As a full-stack software developer, desgined and built scalable web applications and optimized deployment processes for ASU. Mentored junior developers and collaborated with clients to deliver efficient software solutions​."
+  },
+  {
+    "companyName": "S-Clinical Solutions",
+    "companyWebsite": "http://s-clinical.com/",
+    "role": "Software Developer",
+    "duration": "August 2019 - December 2020",
+    "shortDescription": "Built the S-Clinical website. Designed and implemented a Clinical Trial Management System, integrating real-time updates, approval workflows, and secure data storage to improve trial management efficiency and accuracy."
+  },
+  {
+    "companyName": "Strakin Technologies",
+    "companyWebsite": null,
+    "role": "Software Engineer",
+    "duration": "January 2018 - June 2019",
+    "shortDescription": "Developed a patient portal, enabling remote consultations and easy access to prescriptions and medical reports. Implemented a video calling interface for real-time doctor-patient communication, integrating reports and prescriptions into the UI​."
+  }
+]

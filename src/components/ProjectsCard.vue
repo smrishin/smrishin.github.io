@@ -10,15 +10,19 @@ defineProps({
   },
   projectWebsite: {
     type: String,
-    default: ""
+    default: null
   },
   imagePath: {
     type: String,
-    default: ""
+    default: null
   },
   shortDescription: {
     type: String,
     required: true
+  },
+  codebase: {
+    type: String,
+    default: null
   },
   tools: {
     type: Array,
@@ -33,7 +37,7 @@ defineProps({
   >
     <img
       class="rounded-t-md h-44 object-cover"
-      :src="`${CONSTANTS.GH_PAGES_REPO}/work-projects/${imagePath}`"
+      :src="`${CONSTANTS.GH_PAGES_REPO}/projects/${imagePath}`"
     />
     <div class="p-4">
       <h3 class="text-xl font-bold">
@@ -56,11 +60,13 @@ defineProps({
           {{ projectName }}
         </span>
       </h3>
-      <p class="text-sm text-gray-100 mt-4">
+      <p class="text-md text-gray-300 mt-4">
         {{ shortDescription }}
       </p>
     </div>
-    <div class="flex flex-wrap justify-start px-4 pb-4 gap-2">
+
+    <!-- ToolChips -->
+    <div class="flex flex-wrap justify-start px-4 pt-2 pb-4 gap-2 mt-auto">
       <ToolChip
         v-for="(tool, index) in tools"
         :key="index"
@@ -68,7 +74,31 @@ defineProps({
         :tool="toolLibrary[tool].name"
       />
     </div>
+
+    <!-- Source Code Button -->
+    <div class="px-4 pb-4">
+      <a
+        v-if="codebase"
+        :href="codebase"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="flex items-center justify-center px-4 pr-5 py-2 bg-gray-800 text-gray-200 text-sm font-medium rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
+      >
+        <span class="material-icons-outlined mr-2 text-base">code</span>
+        Source code
+      </a>
+
+      <span
+        v-else
+        class="flex items-center justify-center px-4 pr-5 py-2 bg-gray-800 text-gray-200 text-sm font-medium rounded-lg cursor-not-allowed opacity-50"
+      >
+        <span class="material-icons-outlined mr-2 text-base">code</span>
+        Source code is private
+      </span>
+    </div>
   </div>
 </template>
 
-<style scoped></style>
+<style scoped>
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+</style>

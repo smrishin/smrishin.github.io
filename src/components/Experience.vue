@@ -1,23 +1,19 @@
 <script setup>
 import ExperienceCard from "@components/ExperienceCard.vue";
+import experience from "@content/experience.json";
 </script>
 
 <template>
   <div class="text-2xl font-bold pb-8">Experience</div>
-  <div class="flex flex-wrap gap-8">
-    <!-- OneOrigin -->
+  <div class="flex flex-wrap grid lg:grid-cols-3 justify-center gap-8">
     <ExperienceCard
-      companyName="OneOrigin Inc."
-      companyWebsite="https://www.oneorigin.us/"
-      role="Associate Technical Lead"
-      shortDescription="Developed scalable web applications using Vue.js and Node.js. Designed efficient CI/CD pipelines leveraging Jenkins and AWS. Integrated AI/ML models for user experience enhancements."
-    />
-    <!-- S Clinical -->
-    <ExperienceCard
-      companyName="S-Clinical Solutions"
-      companyWebsite="http://s-clinical.com/"
-      role="Software Developer"
-      shortDescription="Designed and implemented a Clinical Trial Management System using Django and SQL, integrating real-time updates, approval workflows, and secure data storage to improve trial management efficiency and accuracy."
+      v-for="(exp, index) in experience"
+      :key="index"
+      :companyName="exp.companyName"
+      :companyWebsite="exp.companyWebsite"
+      :role="exp.role"
+      :duration="exp.duration"
+      :shortDescription="exp.shortDescription"
     />
   </div>
 </template>

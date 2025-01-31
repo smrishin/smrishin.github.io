@@ -3,6 +3,10 @@
     "name": "VueJS",
     "imageName": "vue.svg"
   },
+  "react": {
+    "name": "ReactJS",
+    "imageName": "react.png"
+  },
   "vite": {
     "name": "Vite",
     "imageName": "vite.svg"
@@ -26,6 +30,14 @@
   "nuxt": {
     "name": "Nuxt",
     "imageName": "nuxt.png"
+  },
+  "nextjs": {
+    "name": "NextJS",
+    "imageName": "nextjs.webp"
+  },
+  "vercel": {
+    "name": "Vercel",
+    "imageName": "vercel.svg"
   },
   "javascript": {
     "name": "Javascript",
@@ -98,5 +110,21 @@
   "postgres": {
     "name": "PostgreSQL",
     "imageName": "postgres.png"
+  },
+  "google-classroom": {
+    "name": "Google Classroom",
+    "imageName": "google-classroom.png"
+  },
+  "googlemaps": {
+    "name": "Google Maps",
+    "imageName": "googlemaps.png"
+  },
+  "wordpress": {
+    "name": "WordPress",
+    "imageName": "wordpress.png"
+  },
+  "r": {
+    "name": "R Programming",
+    "imageName": "r.png"
   }
 }
