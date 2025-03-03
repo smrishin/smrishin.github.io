@@ -2,6 +2,7 @@
 import Socials from "@components/Socials.vue";
 import Experience from "@components/Experience.vue";
 import Projects from "@components/Projects.vue";
+import Education from "./components/Education.vue";
 import Skills from "@components/Skills.vue";
 </script>
 
@@ -28,7 +29,7 @@ import Skills from "@components/Skills.vue";
         <div>
           <div class="text-4xl font-extrabold">Hrishikesh Reddy Tolmamdi</div>
           <div class="text-lg font-bold pt-5">
-            Software Developer | DevOps Engineer | AI/ML Enthusiast
+            Software Developer | Cloud Engineer | AI/ML Enthusiast
           </div>
         </div>
 
@@ -58,17 +59,21 @@ import Skills from "@components/Skills.vue";
       <Projects />
     </div>
 
+    <!-- Education Section -->
+    <div class="mt-16">
+      <Education />
+    </div>
+
     <!-- Abount me -->
 
     <div class="text-2xl font-bold mt-16">About me</div>
     <div class="flex flex-wrap justify-between">
       <div class="text-lg max-w-4xl pt-5">
-        Accomplished Software Developer and DevOps Engineer with a solid
-        foundation in JavaScript, Python, Vue.js, AWS, Terraform, and
-        Salesforce. Passionate about utilizing my comprehensive technical skills
-        and innovative problem-solving capabilities to contribute to
-        cutting-edge projects and propel software development to new heights of
-        excellence.
+        Results-driven Full-Stack and Cloud engineer with 5+ years of experience
+        in JavaScript, Python, and AWS. Specialized in architecting scalable
+        cloud solutions, leading high-impact projects, and optimizing CI/CD
+        pipelines using Terraform and Jenkins. Passionate about leveraging my
+        technical expertise and skills to contribute to cutting-edge projects.
       </div>
       <!-- DISLAY PICTURE -->
       <div class="flex justify-end lg:justify-center pt-6">

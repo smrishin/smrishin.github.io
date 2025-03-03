@@ -1,0 +1,26 @@
+[
+  {
+    "universityName": "New Jersey Institute of Technology",
+    "universityWebsite": "https://www.njit.edu/",
+    "degree": "Master of Science in Computer Science",
+    "duration": "September 2019 - May 2021",
+    "gpa": "3.55/4",
+    "imagePath": "njit.webp"
+  },
+  {
+    "universityName": "Trine University",
+    "universityWebsite": "https://trine.edu/",
+    "degree": "Master of Business Administration",
+    "duration": "September 2024 - December 2026",
+    "gpa": "4/4",
+    "imagePath": "trine.webp"
+  },
+  {
+    "universityName": "Nitte Meenakshi Institute of Technology",
+    "universityWebsite": "https://nitte.edu.in/nmit/",
+    "degree": "Bachelor of Technology in Computer Science",
+    "duration": "September 2014 - May 2018",
+    "gpa": "8.05/10",
+    "imagePath": "nmit.webp"
+  }
+]
