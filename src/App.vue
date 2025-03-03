@@ -3,7 +3,7 @@ import Socials from "@components/Socials.vue";
 import Experience from "@components/Experience.vue";
 import Projects from "@components/Projects.vue";
 import Education from "./components/Education.vue";
-import Skills from "@components/Skills.vue";
+import SkillsAndCerts from "@components/SkillsAndCerts.vue";
 </script>
 
 <template>
@@ -49,9 +49,9 @@ import Skills from "@components/Skills.vue";
       <Experience />
     </div>
 
-    <!-- Skills Section -->
+    <!-- Skills and Certifications Section -->
     <div class="mt-16">
-      <Skills />
+      <SkillsAndCerts />
     </div>
 
     <!-- Projects Section -->
