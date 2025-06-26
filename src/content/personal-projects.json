@@ -1,10 +1,10 @@
 [
   {
-    "projectName": "CodeReal: Mock Coding Interviews",
+    "projectName": "CodeReal",
     "projectWebsite": "https://code-real.vercel.app/",
     "imagePath": "code-real.png",
     "codebase": "https://github.com/smrishin/code-real",
-    "shortDescription": "Tired of solving algorithm problems that feel like math class instead of an actual interview? This tool takes popular coding challenges and reframes them into realistic, scenario-based questions—just like you'd encounter at top tech companies like Amazon, Google, and Meta. It's designed to help you practice with purpose by simulating real-world interview conditions, not just textbook puzzles.",
+    "shortDescription": "This application is a mock coding interview platform that presents popular coding problems as realistic, scenario-based challenges, reflecting the interview style of companies like Amazon, Google, and Meta. It uses the Google Gemini API to generate the questions.",
     "tools": [
       "javascript",
       "vuejs",
