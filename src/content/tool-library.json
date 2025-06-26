@@ -1,4 +1,8 @@
 {
+  "google-gemini": {
+    "name": "Google Gemini",
+    "imageName": "google-gemini.svg"
+  },
   "vuejs": {
     "name": "VueJS",
     "imageName": "vue.svg"
