@@ -37,7 +37,7 @@
   },
   "vercel": {
     "name": "Vercel",
-    "imageName": "vercel.svg"
+    "imageName": "vercel.png"
   },
   "javascript": {
     "name": "Javascript",
@@ -60,7 +60,7 @@
     "imageName": "lambda.png"
   },
   "dynamodb": {
-    "name": "AWS Dynamodb",
+    "name": "AWS DynamoDB",
     "imageName": "dynamodb.png"
   },
   "s3": {
@@ -126,5 +126,13 @@
   "r": {
     "name": "R Programming",
     "imageName": "r.png"
+  },
+  "railway": {
+    "name": "Railway",
+    "imageName": "railway.webp"
+  },
+  "socketio": {
+    "name": "SocketIO",
+    "imageName": "socketio.png"
   }
 }

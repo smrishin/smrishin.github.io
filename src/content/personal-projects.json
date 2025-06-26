@@ -1,5 +1,24 @@
 [
   {
+    "projectName": "The Phonebook",
+    "projectWebsite": "https://phonebook-app-henna.vercel.app/",
+    "imagePath": "phonebook.png",
+    "codebase": "https://github.com/smrishin/phonebook-app",
+    "shortDescription": "This application is a phonebook management system that allows users to store, manage, and retrieve contact information. It utilizes DynamoDB as the database to handle user and contact data efficiently and socket.io for real-time updates between the client and server.",
+    "tools": [
+      "javascript",
+      "python",
+      "flask",
+      "nextjs",
+      "react",
+      "tailwindcss",
+      "vercel",
+      "railway",
+      "dynamodb",
+      "socketio"
+    ]
+  },
+  {
     "projectName": "Club 3 App",
     "projectWebsite": "https://club3-intro.vercel.app/",
     "imagePath": "club3.png",
@@ -13,6 +32,14 @@
       "tailwindcss",
       "vercel"
     ]
+  },
+  {
+    "projectName": "Predict Future Sales",
+    "projectWebsite": "https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview",
+    "imagePath": "predict-future-sales.png",
+    "codebase": "https://github.com/smrishin/predict-future-sales",
+    "shortDescription": "Predict total sales for every product and store in the next month. Completed this challenge using R, leveraging data manipulation, feature engineering, and machine learning techniques to build a predictive model for sales forecasting.",
+    "tools": ["r"]
   },
   {
     "projectName": "Club 3 LLM",
@@ -37,14 +64,5 @@
     "codebase": "https://github.com/ShravyaReddyAkmy/customer-support-ai",
     "shortDescription": "A customer churn prediction model analyzes historical customer behavior data to identify patterns and predict the likelihood of customers discontinuing a service or product.",
     "tools": ["python"]
-  },
-
-  {
-    "projectName": "Predict Future Sales",
-    "projectWebsite": "https://www.kaggle.com/c/competitive-data-science-predict-future-sales/overview",
-    "imagePath": "predict-future-sales.png",
-    "codebase": "https://github.com/smrishin/predict-future-sales",
-    "shortDescription": "Predict total sales for every product and store in the next month. Completed this challenge using R, leveraging data manipulation, feature engineering, and machine learning techniques to build a predictive model for sales forecasting.",
-    "tools": ["r"]
   }
 ]
