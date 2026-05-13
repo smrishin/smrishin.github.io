@@ -1,5 +1,27 @@
 [
   {
+    "projectName": "CartCo Quick Commerce Platform",
+    "projectWebsite": "https://cartco.in/",
+    "imagePath": "cartco-app.png",
+    "shortDescription": "CartCo — Multi-role on-demand delivery and commerce platform spanning customer ordering, vendor operations, delivery logistics, admin tooling, and in-store POS. Built as an React / Ionic monorepo with Capacitor mobile apps and a NestJS REST API backed by PostgreSQL (TypeORM), with optional Firebase (auth, messaging, functions) and integrations such as maps, real-time updates, and label printing.",
+    "tools": [
+      "vercel",
+      "railway",
+      "postgres",
+      "typescript",
+      "nestjs",
+      "react",
+      "ionic",
+      "capacitor",
+      "tailwindcss",
+      "typeorm",
+      "firebase",
+      "mapbox",
+      "socketio",
+      "razorpay"
+    ]
+  },
+  {
     "projectName": "CareerCatalyst",
     "projectWebsite": "https://careercatalyst.asu.edu/",
     "imagePath": "careercatalyst.webp",

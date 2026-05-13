@@ -1,7 +1,16 @@
 [
   {
+    "companyName": "CartCo Tech",
+    "companyWebsite": "http://cartco.in/",
+    "logoFile": "cartco.png",
+    "role": "Founding Member",
+    "duration": "November 2026 - Present",
+    "shortDescription": "As a Founding Member of CartCo Tech, I help drive the company’s product direction, business strategy, market positioning, and early-stage growth for a quick commerce platform in India. I also lead the development and deployment of its multi-app ecosystem across customer, vendor, delivery, and admin workflows, turning business needs into scalable production-ready products."
+  },
+  {
     "companyName": "OneOrigin Inc.",
     "companyWebsite": "https://www.oneorigin.us/",
+    "logoFile": "oneorigin.svg",
     "role": "Associate Technical Lead",
     "duration": "September 2021 - July 2024",
     "shortDescription": "As a full-stack software developer, desgined and built scalable web applications and optimized deployment processes for ASU. Mentored junior developers and collaborated with clients to deliver efficient software solutions​."
@@ -9,6 +18,7 @@
   {
     "companyName": "S-Clinical Solutions",
     "companyWebsite": "http://s-clinical.com/",
+    "logoFile": "sclinical.png",
     "role": "Software Developer",
     "duration": "August 2019 - December 2020",
     "shortDescription": "Built the S-Clinical website. Designed and implemented a Clinical Trial Management System, integrating real-time updates, approval workflows, and secure data storage to improve trial management efficiency and accuracy."

@@ -138,5 +138,33 @@
   "socketio": {
     "name": "SocketIO",
     "imageName": "socketio.png"
+  },
+  "capacitor": {
+    "name": "Capacitor",
+    "imageName": "capacitor.svg"
+  },
+  "ionic": {
+    "name": "Ionic",
+    "imageName": "ionic.svg"
+  },
+  "mapbox": {
+    "name": "Mapbox",
+    "imageName": "mapbox.svg"
+  },
+  "nestjs": {
+    "name": "NestJS",
+    "imageName": "nestjs.svg"
+  },
+  "typeorm": {
+    "name": "TypeORM",
+    "imageName": "typeorm.png"
+  },
+  "razorpay": {
+    "name": "Razorpay",
+    "imageName": "razorpay.png"
+  },
+  "firebase": {
+    "name": "Firebase",
+    "imageName": "firebase.svg"
   }
 }

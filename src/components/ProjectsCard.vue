@@ -2,8 +2,9 @@
 import ToolChip from "./ToolChip.vue";
 import toolLibrary from "@content/tool-library.json";
 import { CONSTANTS } from "../data/constants";
+import { computed, ref, watch } from "vue";
 
-defineProps({
+const props = defineProps({
   projectName: {
     type: String,
     required: true
@@ -29,16 +30,65 @@ defineProps({
     required: true
   }
 });
+
+const projectImageError = ref(false);
+
+watch(
+  () => props.imagePath,
+  () => {
+    projectImageError.value = false;
+  }
+);
+
+const showProjectImage = computed(
+  () => Boolean(props.imagePath) && !projectImageError.value
+);
+
+function onProjectImageError() {
+  projectImageError.value = true;
+}
+
+function titleCaseSlug(slug) {
+  return String(slug)
+    .split(/[-_]/)
+    .filter(Boolean)
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase())
+    .join(" ");
+}
+
+const resolvedTools = computed(() =>
+  props.tools.map((slug) => {
+    const meta = toolLibrary[slug];
+    if (meta) {
+      return { slug, name: meta.name, imageName: meta.imageName };
+    }
+    return {
+      slug,
+      name: titleCaseSlug(slug) || slug,
+      imageName: null
+    };
+  })
+);
 </script>
 
 <template>
   <div
-    class="flex flex-1 flex-col justify-start min-w-64 max-w-md lg:max-w-sm bg-[#0B0D0E] border border-[#32383E] rounded-lg"
+    class="flex min-w-64 max-w-md flex-1 flex-col justify-start rounded-lg border border-[#32383E] bg-[#0B0D0E] lg:max-w-sm"
   >
     <img
-      class="rounded-t-md h-44 object-cover"
+      v-if="showProjectImage"
+      class="h-44 rounded-t-md object-cover object-top"
       :src="`${CONSTANTS.GH_PAGES_REPO}/projects/${imagePath}`"
+      :alt="`${projectName} preview`"
+      @error="onProjectImageError"
     />
+    <div
+      v-else
+      class="flex h-44 items-center justify-center rounded-t-md bg-[#14181C] text-sm text-gray-500"
+      aria-hidden="true"
+    >
+      No preview
+    </div>
     <div class="p-4">
       <h3 class="text-xl font-bold">
         <a
@@ -46,32 +96,32 @@ defineProps({
           :href="projectWebsite"
           target="_blank"
           rel="noopener noreferrer"
-          class="text-gray-100 text-xl text-bold underline"
+          class="text-bold text-xl text-gray-100 underline"
         >
           <div class="flex items-center">
             {{ projectName }}
             <img
-              class="rounded pl-2 h-5 w-5 object-contain"
+              class="h-5 w-5 rounded object-contain pl-2"
               src="@assets\icons\external-link.svg"
             />
           </div>
         </a>
-        <span v-else class="text-gray-100 text-xl text-bold">
+        <span v-else class="text-bold text-xl text-gray-100">
           {{ projectName }}
         </span>
       </h3>
-      <p class="text-md text-gray-300 mt-4">
+      <p class="text-md mt-4 text-gray-300">
         {{ shortDescription }}
       </p>
     </div>
 
     <!-- ToolChips -->
-    <div class="flex flex-wrap justify-start px-4 pt-2 pb-4 gap-2 mt-auto">
+    <div class="mt-auto flex flex-wrap justify-start gap-2 px-4 pb-4 pt-2">
       <ToolChip
-        v-for="(tool, index) in tools"
-        :key="index"
-        :imageName="toolLibrary[tool].imageName"
-        :tool="toolLibrary[tool].name"
+        v-for="(t, index) in resolvedTools"
+        :key="`${t.slug}-${index}`"
+        :imageName="t.imageName"
+        :tool="t.name"
       />
     </div>
 
@@ -82,18 +132,18 @@ defineProps({
         :href="codebase"
         target="_blank"
         rel="noopener noreferrer"
-        class="flex items-center justify-center px-4 pr-5 py-2 bg-gray-800 text-gray-200 text-sm font-medium rounded-lg hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
+        class="flex items-center justify-center rounded-lg bg-gray-800 px-4 py-2 pr-5 text-sm font-medium text-gray-200 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-500"
       >
         <span class="material-icons-outlined mr-2 text-base">code</span>
-        Source code
+        View repository
       </a>
 
       <span
         v-else
-        class="flex items-center justify-center px-4 pr-5 py-2 bg-gray-800 text-gray-200 text-sm font-medium rounded-lg cursor-not-allowed opacity-50"
+        class="flex cursor-not-allowed items-center justify-center rounded-lg bg-gray-800 px-4 py-2 pr-5 text-sm font-medium text-gray-200 opacity-50"
       >
         <span class="material-icons-outlined mr-2 text-base">code</span>
-        Source code is private
+        Code not shared publicly
       </span>
     </div>
   </div>

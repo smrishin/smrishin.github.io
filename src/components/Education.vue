@@ -1,13 +1,12 @@
 <script setup>
+import SectionHeading from "@components/SectionHeading.vue";
 import EducationCard from "./EducationCard.vue";
 import education from "@content/education.json";
-import { ref } from "vue";
 </script>
 
 <template>
-  <!-- Work Projects -->
   <div>
-    <div class="text-2xl font-bold pb-8">Education</div>
+    <SectionHeading section-id="education" title="Education" />
     <div class="flex flex-wrap grid lg:grid-cols-3 justify-center gap-8">
       <EducationCard
         v-for="(uni, index) in education"
